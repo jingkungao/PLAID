@@ -1,5 +1,5 @@
 # PLAID
-This repository contains the code to parse [PLAID dataset](http://www.plaidplug.com) and run analysis for load identification research. More open source code using PLAID for analysis can be found [here](https://github.com/LeenDB/PLAID).
+This repository contains the code to parse [PLAID dataset](https://figshare.com/articles/dataset/PLAID_2014/11605074) and run analysis for load identification research. More open source code using PLAID for analysis can be found [here](https://github.com/LeenDB/PLAID).
 
 ## Dataset Description
 PLAID currently includes current and voltage measurements sampled at 30 kHz from 11 different appliance types present in more than 60 households in Pittsburgh, Pennsylvania, USA. Data collection took place during the summer of 2013, and winter of 2014. Each appliance type is represented by dozens of different instances of varying make/models. For each appliance, three to six measurements were collected for each state transition. These measurements were then post-processed to extract a few-second-long window containing both the steady-state operation and the startup transient (when available). Measurements with significant noise in the voltage due to measurement errors were removed, after which we were left with 1074 instances in PLAID 1 and 719 instances in PLAID 2.
@@ -41,7 +41,11 @@ PLAID currently includes current and voltage measurements sampled at 30 kHz from
 
 ### Data Download
 
-The dataset can be downloaded [here](http://plaidplug.com/static/dataset/Plaid.tar.gz).
+The dataset can be downloaded from the links below:
+- [PLAID 1 (2014) Download](https://figshare.com/articles/dataset/PLAID_2014/11605074)
+- [PLAID 2 (2017) Download](https://figshare.com/articles/dataset/PLAID_2014/11605074)
+
+Note in our [recent paper published in Scientific Data](https://www.nature.com/articles/s41597-020-0389-7#Sec12), you can find PLAID 2018 Data ([Download Link](https://figshare.com/articles/dataset/PLAID_-_A_Voltage_and_Current_Measurement_Dataset_for_Plug_Load_Appliance_Identification_in_Households/10084619)) including both aggregated and submetered data.
 
 ## References
 
